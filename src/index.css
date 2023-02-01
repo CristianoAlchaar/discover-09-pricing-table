@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(180deg, var(--blue) 50%, var(--page-background) 60%) no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#presentation{
+    display: block;
+    width: inherit;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 12%;
+    padding: 10px;
+}
+
+#presentation h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#presentation p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.signature-container{
+    width: inherit;
+    height: auto;
+    position: relative;
+    top: 25%;   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signature{
+    margin: 20px 10px;
+    display: block;
+    //padding: 15px 20px;
+    background-color: #fff;
+    width: 355px;
+    height: 470px;
+    box-shadow: 0px 1px 10px rgba(142, 150, 185, 0.25);
+    border-radius: 8px;
+}
+
+.signature h2, p, ul, .money{
+    margin-left : 15px;
+}
+
+.signature h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.signature p{
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.signature ul{
+    list-style-image: url(file://C:/Users/alcha/Documents/Rocketseat/Desafios/09.Pricing%20Table/assets/check.svg);
+    height: 220px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color:#EEEEEE;
+    display: flex;    
+    flex-direction: column;
+}
+
+.signature li{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray);
+    margin: 10px 0px; 
+}
+
+.money,.cents{font-weight: 700;}
+
+.money{font-size: 36px;}
+
+.cents{font-size: 20px;}
+
+.per-month{color: var(--gray);}
+
+.signature button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+
+    width: inherit;
+    height: 49px;
+
+    border: 1px solid #1D539E;
+    border-radius: 10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    background-color: #FFF;
+    color: var(--blue);
+}
+
+.signature button:hover{
+    background-color: var(--blue);
+    color: #FFF;
+}
+
+.focus-signature{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: var(--yellow);
+    width: inherit;
+    height: 60px;
+    margin: ;
+
+
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.popular{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+
+
+    width: 55px;
+    height: 20px;
+
+    background: var(--blue);
+    border-radius: 40px;
+    color: #fff;
+    margin-right: 10px;
+}
