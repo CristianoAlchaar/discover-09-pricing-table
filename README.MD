@@ -6,6 +6,10 @@
 
 Project developed with __HTML__ and __CSS__ 
 
+[Deploy's link](https://cristianoalchaar.github.io/discover-09-pricing-table/)
+
 Challenge made for "Discover" / [@Rocketseat](https://github.com/Rocketseat)
 
 By [Cristiano Alchaa da Silva](https://github.com/CristianoAlchaar)
+
+
